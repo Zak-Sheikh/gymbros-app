@@ -70,6 +70,7 @@
 
 ## 📂 Project Structure
 
+```
 gymbros-app/
 ├── GymBros/ # Main Xcode project folder
 │ ├── GymBros.xcodeproj # Xcode project file
@@ -90,7 +91,7 @@ gymbros-app/
 │ ├── detail.png
 │ ├── list.png
 │ └── saved.png
-
+```
 
 ---
 
