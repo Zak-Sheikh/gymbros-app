@@ -70,4 +70,39 @@
 
 ## 📂 Project Structure
 
+gymbros-app/
+├── GymBros/ # Main Xcode project folder
+│ ├── GymBros.xcodeproj # Xcode project file
+│ ├── GymBros/ # Source files (Views, Models, Assets)
+│ ├── GymBrosTests/ # Unit tests
+│ └── GymBrosUITests/ # UI tests
+├── README.md # Project overview and documentation
+├── docs/ # Planning and design documents
+│ ├── GBFunctions.md
+│ ├── GBInteractions.md
+│ ├── GBInterface.md
+│ ├── GBScenarios.md
+│ ├── GBinterface.png
+│ └── GBinterface3.png
+├── screenshots/ # App screenshots used in README
+│ ├── BodyFront.png
+│ ├── body.png
+│ ├── detail.png
+│ ├── list.png
+│ └── saved.png
+
+
+---
+
+## 📌 About the Developer
+
+**Zak Sheikh**  
+Aspiring software engineer passionate about fitness tech, mobile UX, and building tools that help people stay consistent.  
+- [LinkedIn](https://www.linkedin.com/in/zak-sheikh-1535412aa)  
+- Email: zaksheikh45@gmail.com
+
+
+
+
+
 
