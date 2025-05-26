@@ -57,3 +57,19 @@ let armWorkouts: [Workout] = [
     Workout(name: "Concentration Curls", details: "Focuses on peak contraction of the biceps.", imageName: "conc_curls", suggestedReps: "3 sets of 12–15 reps")
 ]
 
+let coreWorkouts: [Workout] = [
+    Workout(name: "Plank", details: "Engages the entire core. Keep back flat and abs tight.", imageName: "plank", suggestedReps: "3 sets of 30–60 seconds"),
+    Workout(name: "Crunches", details: "Classic ab exercise. Focus on slow, controlled motion.", imageName: "crunches", suggestedReps: "3 sets of 15–20 reps"),
+    Workout(name: "Leg Raises", details: "Targets lower abs. Avoid swinging your legs.", imageName: "leg_raises", suggestedReps: "3 sets of 10–15 reps"),
+    Workout(name: "Bicycle Crunches", details: "Works obliques and upper/lower abs together.", imageName: "bicycle_crunches", suggestedReps: "3 sets of 20 reps (10 per side)"),
+    Workout(name: "Russian Twists", details: "Targets obliques. Use bodyweight or a weight plate.", imageName: "russian_twist", suggestedReps: "3 sets of 30 twists"),
+
+    // Gym-based core workouts:
+    Workout(name: "Hanging Leg Raises", details: "Advanced lower ab exercise. Control your movement and avoid swinging.", imageName: "hanging_leg_raises", suggestedReps: "3 sets of 10–15 reps"),
+    Workout(name: "Cable Crunches", details: "Performed on a cable machine. Focus on contracting the abs, not pulling with arms.", imageName: "cable_crunches", suggestedReps: "3 sets of 12–15 reps"),
+    Workout(name: "Ab Machine Crunch", details: "Use the ab crunch machine with controlled form. Adjust the weight appropriately.", imageName: "ab_machine", suggestedReps: "3 sets of 10–12 reps"),
+    Workout(name: "Decline Sit-Ups", details: "Increase difficulty with a decline bench. Add a plate for more resistance.", imageName: "decline_situps", suggestedReps: "3 sets of 15 reps"),
+    Workout(name: "Weighted Plank", details: "Place a plate on your upper back to increase core tension. Maintain perfect form.", imageName: "weighted_plank", suggestedReps: "3 sets of 30–45 seconds")
+]
+
+

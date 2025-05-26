@@ -66,6 +66,14 @@ struct MainView: View {
                             .frame(width: 60, height: 60)
                     }
                     .position(x: 420, y: 195)
+                    
+                    // Core
+                    NavigationLink(destination: WorkoutListView(title: "Core Workouts", workouts: coreWorkouts, store: store)) {
+                        Circle()
+                            .fill(Color.orange.opacity(0.3))
+                            .frame(width: 100, height: 100)
+                    }
+                    .position(x: 290, y: 300)
                 }
 
                 Spacer()
