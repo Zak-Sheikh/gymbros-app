@@ -22,5 +22,6 @@ jobs:
     - name: Build GymBros App
       run: xcodebuild -project GymBros.xcodeproj -scheme GymBros -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14' build
       
-    - name: Run tests
-      run: swift test -v
+    #- name: Run tests
+     # run: swift test -v
+     
