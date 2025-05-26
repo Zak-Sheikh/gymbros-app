@@ -16,7 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build
-      run: swift build -v
+    - name: Build GymBros App
+      run: xcodebuild -scheme GymBros -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14' build
+
     - name: Run tests
       run: swift test -v
