@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		965EA6DA2D94778B0055CB7E /* GymBros */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GymBros;
-			sourceTree = "<group>";
-		};
-		965EA6EB2D94778E0055CB7E /* GymBrosTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GymBrosTests;
-			sourceTree = "<group>";
-		};
-		965EA6F52D94778E0055CB7E /* GymBrosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GymBrosUITests;
-			sourceTree = "<group>";
-		};
+		965EA6DA2D94778B0055CB7E /* GymBros */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GymBros; sourceTree = "<group>"; };
+		965EA6EB2D94778E0055CB7E /* GymBrosTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GymBrosTests; sourceTree = "<group>"; };
+		965EA6F52D94778E0055CB7E /* GymBrosUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GymBrosUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +175,7 @@
 				};
 			};
 			buildConfigurationList = 965EA6D32D94778B0055CB7E /* Build configuration list for PBXProject "GymBros" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +184,6 @@
 			);
 			mainGroup = 965EA6CF2D94778B0055CB7E;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 965EA6D92D94778B0055CB7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
