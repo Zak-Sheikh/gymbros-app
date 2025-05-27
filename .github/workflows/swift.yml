@@ -16,11 +16,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    
     - name: Select Xcode Version
       run: sudo xcode-select -s /Applications/Xcode.app
 
+    - name: List Available Simulators
+      run: xcrun simctl list devices
+
     - name: Build GymBros App
-      run: xcodebuild -project GymBros.xcodeproj -scheme GymBros -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14' build
+      run: xcodebuild -project GymBros/GymBros.xcodeproj -scheme GymBros -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4' build
       
     #- name: Run tests
      # run: swift test -v
