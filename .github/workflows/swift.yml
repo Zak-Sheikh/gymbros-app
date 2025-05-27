@@ -10,20 +10,24 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build: 
-  
-    runs-on: macos-latest
+  build:
+    runs-on: macos-14
 
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Build with Xcode
-      run: |
-        xcodebuild -project GymBros/GymBros.xcodeproj \
-                   -scheme GymBros \
-                   -sdk iphonesimulator \
-                   -destination 'platform=iOS Simulator,name=iPhone 14' \
-                   build
+      - name: Select Xcode 15.4
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app
+
+      - name: Build GymBros App
+        run: |
+          cd GymBros
+          xcodebuild -project GymBros.xcodeproj \
+                     -scheme GymBros \
+                     -sdk iphonesimulator \
+                     -destination 'platform=iOS Simulator,name=iPhone 14' \
+                     build
    # - name: Run tests
       # run: swift test -v
       
