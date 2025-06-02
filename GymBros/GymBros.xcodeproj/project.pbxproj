@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,32 +30,38 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		965EA6DA2D94778B0055CB7E /* GymBros */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GymBros; sourceTree = "<group>"; };
-		965EA6EB2D94778E0055CB7E /* GymBrosTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GymBrosTests; sourceTree = "<group>"; };
-		965EA6F52D94778E0055CB7E /* GymBrosUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GymBrosUITests; sourceTree = "<group>"; };
+		965EA6DA2D94778B0055CB7E /* GymBros */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GymBros;
+			sourceTree = "<group>";
+		};
+		965EA6EB2D94778E0055CB7E /* GymBrosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GymBrosTests;
+			sourceTree = "<group>";
+		};
+		965EA6F52D94778E0055CB7E /* GymBrosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GymBrosUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		965EA6D52D94778B0055CB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		965EA6E52D94778E0055CB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		965EA6EF2D94778E0055CB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -93,14 +99,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				965EA6DA2D94778B0055CB7E /* GymBros */,
 			);
 			name = GymBros;
-			packageProductDependencies = (
-			);
 			productName = GymBros;
 			productReference = 965EA6D82D94778B0055CB7E /* GymBros.app */;
 			productType = "com.apple.product-type.application";
@@ -122,8 +124,6 @@
 				965EA6EB2D94778E0055CB7E /* GymBrosTests */,
 			);
 			name = GymBrosTests;
-			packageProductDependencies = (
-			);
 			productName = GymBrosTests;
 			productReference = 965EA6E82D94778E0055CB7E /* GymBrosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -145,8 +145,6 @@
 				965EA6F52D94778E0055CB7E /* GymBrosUITests */,
 			);
 			name = GymBrosUITests;
-			packageProductDependencies = (
-			);
 			productName = GymBrosUITests;
 			productReference = 965EA6F22D94778E0055CB7E /* GymBrosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -175,7 +173,6 @@
 				};
 			};
 			buildConfigurationList = 965EA6D32D94778B0055CB7E /* Build configuration list for PBXProject "GymBros" */;
-			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -184,6 +181,7 @@
 			);
 			mainGroup = 965EA6CF2D94778B0055CB7E;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 965EA6D92D94778B0055CB7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -198,48 +196,36 @@
 /* Begin PBXResourcesBuildPhase section */
 		965EA6D62D94778B0055CB7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		965EA6E62D94778E0055CB7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		965EA6F02D94778E0055CB7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		965EA6D42D94778B0055CB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		965EA6E42D94778E0055CB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		965EA6EE2D94778E0055CB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -257,7 +243,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		965EA6FA2D94778E0055CB7E /* Debug */ = {
+		965EA6FA2D94778E0055CB7E /* Debug configuration for PBXProject "GymBros" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		965EA6FB2D94778E0055CB7E /* Release */ = {
+		965EA6FB2D94778E0055CB7E /* Release configuration for PBXProject "GymBros" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +362,7 @@
 			};
 			name = Release;
 		};
-		965EA6FD2D94778E0055CB7E /* Debug */ = {
+		965EA6FD2D94778E0055CB7E /* Debug configuration for PBXNativeTarget "GymBros" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -406,7 +392,7 @@
 			};
 			name = Debug;
 		};
-		965EA6FE2D94778E0055CB7E /* Release */ = {
+		965EA6FE2D94778E0055CB7E /* Release configuration for PBXNativeTarget "GymBros" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -436,7 +422,7 @@
 			};
 			name = Release;
 		};
-		965EA7002D94778E0055CB7E /* Debug */ = {
+		965EA7002D94778E0055CB7E /* Debug configuration for PBXNativeTarget "GymBrosTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,7 +440,7 @@
 			};
 			name = Debug;
 		};
-		965EA7012D94778E0055CB7E /* Release */ = {
+		965EA7012D94778E0055CB7E /* Release configuration for PBXNativeTarget "GymBrosTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,7 +458,7 @@
 			};
 			name = Release;
 		};
-		965EA7032D94778E0055CB7E /* Debug */ = {
+		965EA7032D94778E0055CB7E /* Debug configuration for PBXNativeTarget "GymBrosUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -488,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		965EA7042D94778E0055CB7E /* Release */ = {
+		965EA7042D94778E0055CB7E /* Release configuration for PBXNativeTarget "GymBrosUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -510,37 +496,33 @@
 		965EA6D32D94778B0055CB7E /* Build configuration list for PBXProject "GymBros" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				965EA6FA2D94778E0055CB7E /* Debug */,
-				965EA6FB2D94778E0055CB7E /* Release */,
+				965EA6FA2D94778E0055CB7E /* Debug configuration for PBXProject "GymBros" */,
+				965EA6FB2D94778E0055CB7E /* Release configuration for PBXProject "GymBros" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		965EA6FC2D94778E0055CB7E /* Build configuration list for PBXNativeTarget "GymBros" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				965EA6FD2D94778E0055CB7E /* Debug */,
-				965EA6FE2D94778E0055CB7E /* Release */,
+				965EA6FD2D94778E0055CB7E /* Debug configuration for PBXNativeTarget "GymBros" */,
+				965EA6FE2D94778E0055CB7E /* Release configuration for PBXNativeTarget "GymBros" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		965EA6FF2D94778E0055CB7E /* Build configuration list for PBXNativeTarget "GymBrosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				965EA7002D94778E0055CB7E /* Debug */,
-				965EA7012D94778E0055CB7E /* Release */,
+				965EA7002D94778E0055CB7E /* Debug configuration for PBXNativeTarget "GymBrosTests" */,
+				965EA7012D94778E0055CB7E /* Release configuration for PBXNativeTarget "GymBrosTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		965EA7022D94778E0055CB7E /* Build configuration list for PBXNativeTarget "GymBrosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				965EA7032D94778E0055CB7E /* Debug */,
-				965EA7042D94778E0055CB7E /* Release */,
+				965EA7032D94778E0055CB7E /* Debug configuration for PBXNativeTarget "GymBrosUITests" */,
+				965EA7042D94778E0055CB7E /* Release configuration for PBXNativeTarget "GymBrosUITests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
